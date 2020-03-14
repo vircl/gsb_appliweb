@@ -1,0 +1,52 @@
+/**
+ * Boutons
+ */
+
+h3 a {
+  color: $gsb-grey;
+  &:hover {
+    color: $primary !important;
+    text-decoration: none !important;
+  }
+}
+// Boutons menu accueil
+.bouton-accueil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $gray-100;
+  min-height:250px;
+  @include font-size(8rem);
+  color: $gray-200;
+  &:hover {
+    background-color: $primary;
+    color: $white;
+    cursor:pointer;
+    text-decoration: none !important;
+  }
+}
+
+.btn-hf {
+  color : $white !important;
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.btn-primary {
+  color : $white !important;
+}
+
+
+
+.btn-default {
+  background: transparent;
+  border: 1px solid $white;
+  color : $white;
+  &:hover {
+    color : $white !important;
+    background: $primary !important;
+    border: 1px solid $primary;
+  }
+}

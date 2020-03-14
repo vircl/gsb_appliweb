@@ -1,0 +1,51 @@
+
+@for $i from 1 through 5 {
+  $coeff: ($i * 1rem);
+  // Margins
+  .m-#{$i} {
+    margin: $coeff;
+  }
+  .mx-#{$i}{
+    margin: 0 $coeff;
+  }
+  .my-#{$i} {
+    margin: $coeff 0;
+  }
+  .mt-#{$i} {
+    margin-top: $coeff;
+  }
+  .mr-#{$i} {
+    margin-right: $coeff;
+  }
+  .mb-#{$i} {
+    margin-bottom: $coeff;
+  }
+  .ml-#{$i} {
+    margin-left: $coeff;
+  }
+
+  // Paddings
+  .p-#{$i} {
+    margin: $coeff;
+  }
+  .px-#{$i}{
+    padding: 0 $coeff;
+  }
+  .py-#{$i} {
+    padding: $coeff 0;
+  }
+  .pt-#{$i} {
+    padding-top: $coeff;
+  }
+  .pr-#{$i} {
+    padding-right: $coeff;
+  }
+  .pb-#{$i} {
+    padding-bottom: $coeff;
+  }
+  .pl-#{$i} {
+    padding-left: $coeff;
+  }
+
+
+}

@@ -1,0 +1,17 @@
+/**
+ * Styles Non connecté
+ */
+
+// Variables
+
+$primary: #707070 !default;
+$dark: #252829 !default;
+
+$theme-colors: (
+        "dark": $dark,
+        "primary" : $primary,
+
+);
+
+// Import styles
+@import 'libs/root';

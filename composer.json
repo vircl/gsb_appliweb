@@ -1,0 +1,29 @@
+{
+  "name": "vircl/gsb_appliweb",
+  "description": "Application web gestion des frais de visite du laboratoire GSB",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Virginie CLAUDE",
+      "email": "dev@virginie-claude.fr",
+      "homepage": "https://www.virginie-claude.fr"
+    }
+  ],
+  "require-dev": {
+    "jms/serializer": "1.7.*",
+    "phpunit/phpunit": "^8.5",
+    "phpdocumentor/phpdocumentor": "2.9.x-dev",
+    "squizlabs/php_codesniffer": "3.5.3"
+  },
+  "require": {
+    "tecnickcom/tcpdf": "6.3.2",
+    "jacwright/restserver": "v1.2.0",
+    "ext-json": "*",
+    "twbs/bootstrap": "v4.4.1",
+    "components/jquery": "3.4.1"
+  },
+  "scripts": {
+    "phpcs": "phpcs --standard=Zend"
+  }
+}

@@ -1,0 +1,73 @@
+/**
+ * Styles généraux
+ */
+html, body {
+  font-family: "Roboto", arial, Helvetica, sans-serif;
+  color: $gsb-grey;
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+.info-fiche {
+  &>h2,
+  &>form {
+    margin-bottom:30px !important;
+    &:last-child {
+      margin-bottom: 0px !important;
+    }
+  }
+
+}
+// BACKGROUNDS
+.bg-black {
+  background: $black;
+}
+
+
+// CONTENEUR GLOBAL
+.wrapper {
+  //min-height: calc(100vh - 150px);
+  position: relative;
+}
+
+// NAVBAR
+.navbar-gsb {
+  padding:0 1rem !important;
+  background: $white !important;
+  .navbar-brand {
+    color: $gsb-grey !important;
+  }
+}
+ul.navbar-nav {
+  @media screen and (min-width:991px) {
+    li {
+      display: inline-flex;
+      flex-direction: column;
+      height: 75px;
+      justify-content: center;
+      border-top: 8px solid transparent;
+    }
+    li.active {
+      border-top: 8px solid $primary !important;
+    }
+  }
+
+}
+
+//BANDEAU TITRE PAGE
+.bandeau-titre {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items : center;
+  justify-content: center;
+}
+
+
+//FOOTER
+.gsb-footer {
+  min-height:100vh;
+  background: $black;
+  color: $gsb-grey;
+}

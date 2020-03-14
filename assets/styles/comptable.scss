@@ -1,0 +1,20 @@
+/**
+ * Styles Comptable
+ */
+
+// Variables
+
+$primary: #FFA32A !default;
+$dark: #252829 !default;
+
+$theme-colors: (
+        "dark": $dark,
+        "primary" : $primary,
+
+);
+
+// Import styles
+@import 'libs/root';
+
+
+
