@@ -26,3 +26,7 @@ Pour générer un jeu d'utilisateurs ainsi que des fiches de frais aléatoires :
 /install.php?users&datas
 
 Attention le script install.php écrase les données de la base gsb_frais. Ce fichier doit être supprimé lors de la mise en production. 
+
+
+### Démonstration
+Une version de démonstration est accessible ici : https://www.gsb.virginie-claude.fr
