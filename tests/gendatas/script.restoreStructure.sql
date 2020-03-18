@@ -51,7 +51,8 @@ CREATE TABLE IF NOT EXISTS utilisateur (
   idvehicule int(11) DEFAULT NULL,
   idprofil int(11) DEFAULT 1,
   PRIMARY KEY (id),
-  FOREIGN KEY (idvehicule) REFERENCES vehicule(id)
+  FOREIGN KEY (idvehicule) REFERENCES vehicule(id),
+  FOREIGN KEY (idprofil) REFERENCES profil(id)
 ) ENGINE=InnoDB;
 
 CREATE TABLE IF NOT EXISTS fichefrais (

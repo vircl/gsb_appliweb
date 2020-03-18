@@ -30,7 +30,7 @@ require 'fonctions.php';
  */
 function genererDatabase($requete, $affichage = true)
 {
-    $pdo = new PDO('mysql:host=localhost:3308;dbname=gsb_frais', 'root', '');
+    $pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USER, DB_PWD);
     $pdo->query('SET CHARACTER SET utf8');
 
     $requetePrepare = $pdo->prepare($requete);
@@ -52,7 +52,7 @@ function genererDatabase($requete, $affichage = true)
  */
 function genererDatas($affichage = true)
 {
-    $pdo = new PDO('mysql:host=localhost:3308;dbname=gsb_frais', 'root', '');
+    $pdo = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USER, DB_PWD);
     $pdo->query('SET CHARACTER SET utf8');
 
     set_time_limit(0);
