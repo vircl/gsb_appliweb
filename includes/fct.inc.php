@@ -252,7 +252,6 @@ function verifierToken($jwt, $idVisiteur)
         base64_encode($jwtSignature)
     );
 
-    // Teste la date de validité du token
     $payload = json_decode(base64_decode($base64PayLoad), true);
 
     return ($base64JwtSignature === $base64Signature) && $payload['exp'] > $timestamp && $payload['user_id'] === $idVisiteur;
