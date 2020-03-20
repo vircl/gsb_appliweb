@@ -28,7 +28,7 @@ spl_autoload_register();
 $mode   = 'debug'; // debug | production
 $server = new RestServer($mode);
 $server->useCors = true;
-$server->allowedOrigin = 'https://gsb.virginie-claude.fr';
+$server->allowedOrigin = 'https://gsb.virginieclaude.fr';
 try {
     $server->addClass('GestionFraisController');
 } catch (Exception $e) {
