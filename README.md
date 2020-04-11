@@ -29,4 +29,4 @@ Attention le script install.php écrase les données de la base gsb_frais. Ce fi
 
 
 ### Démonstration
-Une version de démonstration est accessible ici : https://www.gsb.virginie-claude.fr
+Une version de démonstration est accessible ici : https://www.gsb.virginieclaude.fr
